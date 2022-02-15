@@ -1,0 +1,28 @@
+.formDiv {
+  box-shadow: 5px 0 10px gray;
+
+  background-color: gainsboro;
+}
+form {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  height: 30px;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  width: 350px;
+  padding: 2px 20px;
+  border: 0;
+  box-shadow: 5px 0 10px lightgrey;
+  border-radius: 5px;
+  font-size: 15px;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}

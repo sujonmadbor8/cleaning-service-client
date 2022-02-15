@@ -1,0 +1,7 @@
+.testimonialCard {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.testimonialCard:hover {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,6 @@
+.headerStyle {
+  background-image: url("./../../../Images/header.jpeg");
+  background-repeat: no-repeat;
+  position: static;
+  background-size: cover;
+}

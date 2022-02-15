@@ -1,0 +1,7 @@
+.qualityImage {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.qualityImage:hover {
+  transform: rotate(360deg);
+}
