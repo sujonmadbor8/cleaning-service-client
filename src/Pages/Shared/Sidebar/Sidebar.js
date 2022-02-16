@@ -20,7 +20,7 @@ const AdminSidebar = () => {
   // const [admins, setAdmins] = useState([]);
 
   // useEffect(() => {
-  //   fetch("http://localhost:5000/isAdmin")
+  //   fetch("https://agile-inlet-49151.herokuapp.com/isAdmin")
   //     .then((res) => res.json())
   //     .then((data) => setAdmins(data));
   // }, []);

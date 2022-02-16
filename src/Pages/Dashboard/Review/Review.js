@@ -49,7 +49,7 @@ const Review = () => {
     formData.append("image", image);
     formData.append("rating", rating);
 
-    fetch("http://localhost:5000/addReview", {
+    fetch("https://agile-inlet-49151.herokuapp.com/addReview", {
       method: "POST",
       body: formData,
     })

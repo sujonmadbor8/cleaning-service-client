@@ -22,7 +22,7 @@ const AddAdmin = () => {
 
     const formData = new FormData();
     formData.append("email", email);
-    fetch("http://localhost:5000/addAdmin", {
+    fetch("https://agile-inlet-49151.herokuapp.com/addAdmin", {
       method: "POST",
       body: formData,
     })
